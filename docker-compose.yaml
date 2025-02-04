@@ -60,8 +60,8 @@ services:
     - mysql
 
   rabbitmq:
-    image: rabbitmq
     container_name: rabbitmq
+    image: rabbitmq
     environment:
     - RABBITMQ_DEFAULT_USER=roboshop
     - RABBITMQ_DEFAULT_PASS=roboshop123
