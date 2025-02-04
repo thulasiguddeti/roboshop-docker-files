@@ -54,3 +54,10 @@ services:
     container_name: shipping 
     depends_on:
       - mysql
+
+  rabbitmq:
+    image: rabbitmq
+    container_name: rabbitmq
+    environment:
+    - RABBITMQ_DEFAULT_USER=roboshop
+    - RABBITMQ_DEFAULT_PASS=roboshop123
