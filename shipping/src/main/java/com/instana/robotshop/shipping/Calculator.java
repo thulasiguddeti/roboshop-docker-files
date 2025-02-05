@@ -40,4 +40,3 @@ public class Calculator {
         return (long)Math.rint(earthRadius * c / 1000.0);
     }
 }
-

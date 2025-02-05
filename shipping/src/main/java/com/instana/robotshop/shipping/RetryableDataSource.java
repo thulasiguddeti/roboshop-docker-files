@@ -27,4 +27,3 @@ class RetryableDataSource extends AbstractDataSource {
         return delegate.getConnection(username, password);
     }
 }
-
